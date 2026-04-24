@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pj.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="pr">
+        
+    <h1>JOLLYFIA FEISTY</h1>
+    <p>
+        Class: X TKJ 1
+        <br>
+        Hobi : Memasak, Dengerin Musik
+    </p>
+    <br>
+    
+
+    <h2 class="ro">Princess Arlina dan Mata Air Harapan</h2>
+    <br>
+    <div class="pr1">
+    <p id="tk1">
+        Di sebuah kerajaan yang jauh di atas perbukitan hijau, hiduplah seorang putri bernama Arlina.
+        Ia dikenal sebagai princess yang tidak hanya cantik, tetapi juga baik hati dan berani.
+         Berbeda dengan putri pada umumnya, Arlina tidak suka hanya duduk di istana.
+         Ia lebih senang menjelajahi taman, membantu rakyat, dan belajar banyak hal baru.
+    </p>
+    </div>
+    <br>
+    <div class="pr2">
+    <p>
+        Suatu hari, kerajaan mereka dilanda kekeringan panjang. Sungai mengering, tanaman mati, dan rakyat mulai kesulitan mendapatkan air. Raja dan para penasihat sudah mencoba berbagai cara, tetapi belum menemukan solusi.
+        Melihat keadaan itu, Princess Arlina tidak tinggal diam. Ia teringat cerita lama tentang “Mata Air Harapan” yang tersembunyi di hutan terlarang. Konon, air dari mata air itu tidak pernah kering dan bisa menyelamatkan kerajaan.
+    </p>
+    </div>
+
+    <div class="pr3">
+    <p>
+        Meskipun banyak yang melarang karena hutan itu dianggap berbahaya, Arlina tetap bertekad pergi. Dengan ditemani seekor burung kecil yang setia, ia memulai perjalanan panjang.
+        <br> 
+        Ia melewati jalan berbatu, hutan gelap, dan berbagai rintangan yang menguji keberaniannya. Di tengah perjalanan, Arlina hampir menyerah. Namun ia ingat wajah rakyatnya yang membutuhkan bantuan. Ia pun bangkit dan melanjutkan perjalanan.</p>
+        </div>
+
+    <br>
+    <div class="pr4">
+    <p>Akhirnya, setelah berhari-hari berjalan, ia menemukan Mata Air Harapan. Airnya jernih dan bercahaya. Arlina membawa air itu kembali ke kerajaan.
+    
+    Setelah air tersebut dibagikan, perlahan-lahan sungai kembali mengalir, tanaman tumbuh, dan kehidupan kembali normal. Rakyat sangat berterima kasih kepada Princess Arlina.
+    Sejak saat itu, Arlina tidak hanya dikenal sebagai putri kerajaan, tetapi juga sebagai pahlawan yang menyelamatkan negerinya. Ia membuktikan bahwa seorang princess bukan hanya tentang mahkota, tetapi juga tentang keberanian, kepedulian, dan tekad.</p>
+    </div>
+
+</body>
+</div>
+
+<script>
+   
+function ubahWarna() {
+  const paragraf = document.querySelectorAll(".pr1, .pr2, .pr3, .pr4");
+  const warna = ["darkslategrey", "thistle", "palevioletred", "lightcoral"];
+
+  paragraf.forEach((p, index) => {
+    p.style.color = warna[index % warna.length];
+  });
+}
+window.onload = ubahWarna;
+
+
+</script>
+</html>

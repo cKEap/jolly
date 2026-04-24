@@ -1,0 +1,70 @@
+ 
+ body{
+  padding: 10px;
+  background-image: url(gradasi.jpg);
+  background-size: cover;
+   background-position: center;
+ }
+ .pr {
+   background-image: url(rpr.jpg); 
+   width: 600px;
+   padding: 30px;
+   border-radius: 15px;
+   margin: 0 auto;
+ }
+ .ro {
+  text-align: center;
+ }
+ h1 {
+  margin-top: -15px;
+ }
+
+.pr1 {
+   border: 1px solid rgb(242, 238, 238);
+   margin-left: 15px;
+   padding: 10px;
+   border-radius: 20px;
+   backdrop-filter: blur(.1rem);
+   width: 430px;
+   box-shadow: 2px 5px 6px  ;
+}
+.pr2 {
+   border: 1px solid rgb(242, 238, 238);
+   margin-left: 130px;
+   padding: 10px;
+   border-radius: 20px;
+   backdrop-filter: blur(.1rem);
+   width: 430px;
+    box-shadow: 2px 5px 6px  ;
+   
+}
+.pr3 {
+  border: 1px solid rgb(242, 238, 238);
+   margin-left: 15px;
+   padding: 10px;
+   border-radius: 20px;
+   backdrop-filter: blur(.1rem);
+   width: 430px;
+   margin-top: 20px;
+    box-shadow: 2px 5px 6px  ;
+}
+.pr4 {
+     border: 1px solid rgb(242, 238, 238);
+   margin-left: 130px;
+   padding: 10px;
+   border-radius: 20px;
+   backdrop-filter: blur(.1rem);
+   width: 430px;
+   margin-bottom: 20px;
+    box-shadow: 2px 5px 6px  ;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
